@@ -1,10 +1,5 @@
-const fs = require("node:fs")
+import fs from "node:fs"
 
 
-const filename = "D:/runtrack-nodeJs/jou01/data.txt"
-
-fs.readFileSync(filename,"utf8", (err, data) => { 
-    if (err) throw err;
-    console.log(data);
-})
-
+const content = fs.readFileSync("data.txt", "utf8")
+console.log(content)
