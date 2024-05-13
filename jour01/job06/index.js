@@ -1,5 +1,5 @@
-import fs from "node:fs"
+import { readFileSync} from "fs"
 
 
-const content = fs.readFileSync("data.txt", "utf8")
+const content = readFileSync("jour01/job07/data.txt", "utf8")
 console.log(content)
