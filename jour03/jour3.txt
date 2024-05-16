@@ -13,3 +13,7 @@ db.product.insertMany([{name:"Pantalon noir", description: "Un pantalon noir", p
 Job 5
 étape 1 , créer une nouvelle collection "category" : db.createCollection("category")
 étape 2, ajout de nouvelle category : db.category.insertMany([{name: "sous-vétement"},{name:'chaussure de ville'}, {name: "vétement"}])
+
+
+job 6
+Afficher les collection : show collections
