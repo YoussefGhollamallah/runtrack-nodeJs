@@ -17,3 +17,6 @@ Job 5
 
 job 6
 Afficher les collection : show collections
+
+job 7 :
+Afficher les données de la collection "category" : db.category.find()
