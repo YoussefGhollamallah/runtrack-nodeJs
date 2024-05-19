@@ -43,3 +43,6 @@ db.product.find({}, { _id: 0 })
 Job 14 : récupérer une category par son id
 db.category.findOne({_id : ObjectId("66463425e5ee8485d074b16e")})
 
+Job 15 : changer le nom d'une category
+db.category.updateOne({name:"sous-vétement"}, {$set: { name: "vétements pour enfant"} })
+
